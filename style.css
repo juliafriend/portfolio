@@ -1,16 +1,23 @@
 h1 {
     text-align: center;
     font-weight: bolder;
-    color: darkslategray;
+    color: #2C365E;
+    font-size: 48px;
 }
-
+h2 {
+    color:#484D6D;
+    font-size: 36px;
+    text-align: center;
+    text-decoration: underline;
+}
 body {
-    background-color: lightgray;
+    background-color: #C5979D;
 }
 #biography, #experience, #projects {
     font-style: italic;
+    font-size: 18px;
+    color: black;
 }
-
 .navbar {
     padding: 16px 24px;
     word-spacing: 24px;
@@ -18,23 +25,79 @@ body {
 .pages {
     padding: 16px 24px;
     word-spacing: 24px;
+    
 }
-
 .bio {
-    font-size: 18px;
+    font-size: 36px;
+    color: whitesmoke;
 }
-#button {
-    width: 100%;
-    border-radius: 33%;
+.experience{
+    font-size: 36px;
+    color: whitesmoke;
+}
+.projects{
+    font-size: 36px;
+    color: whitesmoke;
+}
+.navlinks {
+    font-size: 22px;
+    color: whitesmoke;
 }
 #flexbox1 {
     display: flex;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: #484D6D;
+    width: 100%;
+    align-items: center;
     
 } 
 #flexbox2 { 
     display: flex;
     justify-content: center;
-    background-color: beige;
+    background-color: #4B8F8C;
+    width: 100%;
+}
+#flexbox3 { 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+#flexbox-page {
+    display: flex;
+    justify-content: center;
+    margin-right: 225px;
+    margin-left: 225px;
+	background: #4B8F8C;
+	padding: 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px #2C365E; 
+}
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.carousel-imgs {
+	width: 80%;
+	background: #4B8F8C;
+	padding: 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px #2C365E;
+}
+.carousel-imgs img {
+	width: 100%;
+	border-radius: 10px;
+	display: none;
+}
+.carousel-button {
+	align-self: center;
+	background: #2C365E;
+	color: whitesmoke;
+	padding: 10px;
+    font-style: italic;
+}
+.carousel-imgs img:first-of-type {
+    display: block;
 }
