@@ -1,11 +1,11 @@
-// $( () => {
+$( () => {
   
-// const $btn = $('#btn');
+const $button = $('#button');
     
-// const addText = () => {
-//     $('body').append("Thank you for visiting my page");
-// }
-// $btn.on('click', addText);
+const addMessage = () => {
+    $('body').append("Thank you for visiting! Check back soon for updated content");
+}
+$button.on('click', addMessage);
 
 
 
@@ -14,4 +14,4 @@
 //   });
 
 
-//   });
+  });

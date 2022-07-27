@@ -1,11 +1,40 @@
 h1 {
     text-align: center;
     font-weight: bolder;
+    color: darkslategray;
 }
 
 body {
-    background-color: rgb(226, 189, 220);
+    background-color: lightgray;
 }
 #biography, #experience, #projects {
     font-style: italic;
+}
+
+.navbar {
+    padding: 16px 24px;
+    word-spacing: 24px;
+}
+.pages {
+    padding: 16px 24px;
+    word-spacing: 24px;
+}
+
+.bio {
+    font-size: 18px;
+}
+#button {
+    width: 100%;
+    border-radius: 33%;
+}
+#flexbox1 {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    
+} 
+#flexbox2 { 
+    display: flex;
+    justify-content: center;
+    background-color: beige;
 }
