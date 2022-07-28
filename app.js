@@ -1,28 +1,18 @@
 $( () => {    
-/////Function to print message to DOM when "projects" is clicked/////
-const $newDiv = $('<div>').attr('id', 'alert')
-$('#flexbox2').append($newDiv)
+/////Hover function on navbar/////
 
-$('.navlinks').click(function () {
-    alert("You are leaving my portfolio page")
-// $newDiv.text('warning, you are leaving home page');
+$('.navbar').hover(function() {
+    $('.navbar').fadeOut('slow').fadeIn('fast');
 });
-// $('#navbar').click(function(){
-//   alert("user leaving page");
-// })
 
 
 
-// $("p").click(function(){
-//     alert("The paragraph was clicked.");
-//   });
-/////
-
+/////////Button to like page//////
 const $button = $('#button');
-const addMessage = () => {
+const buttonMessage = () => {
     $('body').append("Thank you for visiting! Check back soon for updated content");
 }
-$button.on('click', addMessage);
+$button.on('click', buttonMessage);
 
 //////////Carousel//////////
 let currentImgIndex = 0

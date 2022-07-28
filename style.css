@@ -101,3 +101,20 @@ body {
 .carousel-imgs img:first-of-type {
     display: block;
 }
+@media (max-width: 600px) {
+	body{
+		background: black;
+	}
+    .bio {
+        font-size: 24px;
+        color: whitesmoke;
+    }
+    .experience{
+        font-size: 24px;
+        color: whitesmoke;
+    }
+    .projects{
+        font-size: 24px;
+        color: whitesmoke;
+    }
+}
