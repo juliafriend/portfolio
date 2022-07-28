@@ -118,7 +118,7 @@ body {
         color: whitesmoke;
     }
 }
-@media (max-width: 300px) {
+@media (max-width: 200px) {
 	body{
 		background: #d6abb1;
 	}
