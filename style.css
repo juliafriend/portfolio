@@ -103,7 +103,7 @@ body {
 }
 @media (max-width: 600px) {
 	body{
-		background: black;
+		background: #d6abb1;
 	}
     .bio {
         font-size: 24px;
@@ -115,6 +115,23 @@ body {
     }
     .projects{
         font-size: 24px;
+        color: whitesmoke;
+    }
+}
+@media (max-width: 300px) {
+	body{
+		background: #d6abb1;
+	}
+    .bio {
+        font-size: 16px;
+        color: whitesmoke;
+    }
+    .experience{
+        font-size: 16px;
+        color: whitesmoke;
+    }
+    .projects{
+        font-size: 16px;
         color: whitesmoke;
     }
 }
