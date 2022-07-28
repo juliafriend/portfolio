@@ -1,10 +1,23 @@
 $( () => {    
-/////
-$("p").click(function(){
-    alert("The paragraph was clicked.");
+/////Function to print message to DOM when "projects" is clicked/////
+const $newDiv = $('<div>').attr('id', 'alert')
+$('#flexbox2').append($newDiv)
 
-  });
+$('.navlinks').click(function () {
+    alert("You are leaving my portfolio page")
+// $newDiv.text('warning, you are leaving home page');
+});
+// $('#navbar').click(function(){
+//   alert("user leaving page");
+// })
+
+
+
+// $("p").click(function(){
+//     alert("The paragraph was clicked.");
+//   });
 /////
+
 const $button = $('#button');
 const addMessage = () => {
     $('body').append("Thank you for visiting! Check back soon for updated content");
