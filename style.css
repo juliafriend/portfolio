@@ -106,15 +106,15 @@ body {
 		background: #d6abb1;
 	}
     .bio {
-        font-size: 24px;
+        font-size: 12px;
         color: whitesmoke;
     }
     .experience{
-        font-size: 24px;
+        font-size: 12px;
         color: whitesmoke;
     }
     .projects{
-        font-size: 24px;
+        font-size: 12px;
         color: whitesmoke;
     }
 }
