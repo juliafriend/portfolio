@@ -1,10 +1,14 @@
 $( () => {    
-/////Hover function on navbar/////
+/////color change on navbar/////
 
-$('.navbar').hover(function() {
-    $('.navbar').fadeOut('slow').fadeIn('fast');
-});
+// $('.navbar').hover(function() {
+//     $('.navbar').fadeOut('slow').fadeIn('fast');
+// });
 
+
+$('.navbar').on('click', () => {
+    $('.navbar').css("background-color", "rgb(220, 165, 175)");
+  });
 
 
 /////////Button to like page//////

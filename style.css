@@ -7,15 +7,15 @@ h1 {
 h2 {
     color:#484D6D;
     font-size: 36px;
-    text-align: center;
+    text-align: left;
     text-decoration: underline;
 }
 body {
-    background-color: #C5979D;
+    background-color: whitesmoke;
 }
 #biography, #experience, #projects {
     font-style: italic;
-    font-size: 18px;
+    font-size: 28px;
     color: black;
 }
 .navbar {
@@ -58,18 +58,23 @@ body {
     width: 100%;
 }
 #flexbox3 { 
-    border-radius: 50%;
     display: flex;
     justify-content: center;
 }
+#button {
+    border-radius: 12px;
+    border: 2px solid rgb(220, 165, 175);
+    padding: 14px 40px;
+    background: lightgray;
+}
 #flexbox-page {
-    display: flex;
-    justify-content: center;
-    margin-right: 225px;
-    margin-left: 225px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    width: 50%;
 	background: #4B8F8C;
-	padding: 10px;
-	border-radius: 10px;
+	padding: 20px 20px;
+	border-radius: 20px;
 	box-sizing: border-box;
 	box-shadow: 2px 2px #2C365E; 
 }
@@ -79,7 +84,7 @@ body {
 	justify-content: space-evenly;
 }
 .carousel-imgs {
-	width: 80%;
+	width: 50%;
 	background: #4B8F8C;
 	padding: 10px;
 	border-radius: 10px;
@@ -101,9 +106,9 @@ body {
 .carousel-imgs img:first-of-type {
     display: block;
 }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 	body{
-		background: #d6abb1;
+		background: whitesmoke;
 	}
     .bio {
         font-size: 20px;
@@ -117,5 +122,53 @@ body {
         font-size: 20px;
         color: whitesmoke;
     }
+    .navlinks {
+        font-size: 18px;
+        color: whitesmoke;
+    }
+    #flexbox-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        background: #4B8F8C;
+        padding: 20px 20px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        box-shadow: 2px 2px #2C365E; 
+    }
+    .carousel-imgs {
+        width: 60%;
+        background: #4B8F8C;
+        padding: 10px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 2px #2C365E;
+    }
 }
+@media (min-width: 1000px) {
+    body{
+        background: whitesmoke;
+        }
+    #flexbox-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 33%;
+        background: #4B8F8C;
+        padding: 20px 20px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        box-shadow: 2px 2px #2C365E; 
+        }
+    .carousel-imgs {
+        width: 30%;
+        background: #4B8F8C;
+        padding: 10px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 2px #2C365E;
+        }
+}
+
 
