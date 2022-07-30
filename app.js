@@ -1,11 +1,6 @@
 $( () => {    
 /////color change on navbar/////
 
-// $('.navbar').hover(function() {
-//     $('.navbar').fadeOut('slow').fadeIn('fast');
-// });
-
-
 $('.navbar').on('click', () => {
     $('.navbar').css("background-color", "rgb(220, 165, 175)");
   });
@@ -14,7 +9,7 @@ $('.navbar').on('click', () => {
 /////////Button to like page//////
 const $button = $('#button');
 const buttonMessage = () => {
-    $('body').append("Thank you for visiting! Check back soon for updated content");
+    $('#feedback').append("a visitor clicked the button!").hide();
 }
 $button.on('click', buttonMessage);
 

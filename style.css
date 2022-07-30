@@ -2,25 +2,30 @@ h1 {
     text-align: center;
     font-weight: bolder;
     color: #2C365E;
-    font-size: 48px;
+    font-size: 56px;
+    font-family: 'Roboto Mono', monospace;
+
 }
 h2 {
     color:#484D6D;
-    font-size: 36px;
+    font-size: 48px;
     text-align: left;
     text-decoration: underline;
+    font-family: 'Roboto Mono', monospace;
 }
 body {
     background-color: whitesmoke;
 }
 #biography, #experience, #projects {
     font-style: italic;
-    font-size: 28px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
     color: black;
 }
 .navbar {
     padding: 16px 24px;
     word-spacing: 24px;
+    font-family: 'Roboto Mono', monospace;
 }
 .pages {
     padding: 16px 24px;
@@ -29,14 +34,17 @@ body {
 }
 .bio {
     font-size: 36px;
+    font-family: 'Roboto Mono', monospace;
     color: whitesmoke;
 }
 .experience{
     font-size: 36px;
+    font-family: 'Roboto Mono', monospace;
     color: whitesmoke;
 }
 .projects{
     font-size: 36px;
+    font-family: 'Roboto Mono', monospace;
     color: whitesmoke;
 }
 .navlinks {
@@ -74,7 +82,6 @@ body {
     width: 50%;
 	background: #4B8F8C;
 	padding: 20px 20px;
-	border-radius: 20px;
 	box-sizing: border-box;
 	box-shadow: 2px 2px #2C365E; 
 }
@@ -87,13 +94,11 @@ body {
 	width: 50%;
 	background: #4B8F8C;
 	padding: 10px;
-	border-radius: 10px;
 	box-sizing: border-box;
 	box-shadow: 2px 2px #2C365E;
 }
 .carousel-imgs img {
 	width: 100%;
-	border-radius: 10px;
 	display: none;
 }
 .carousel-button {
@@ -106,21 +111,10 @@ body {
 .carousel-imgs img:first-of-type {
     display: block;
 }
-@media (max-width: 650px) {
-	body{
-		background: whitesmoke;
-	}
-    .bio {
-        font-size: 20px;
-        color: whitesmoke;
-    }
-    .experience{
-        font-size: 20px;
-        color: whitesmoke;
-    }
-    .projects{
-        font-size: 20px;
-        color: whitesmoke;
+@media (max-width: 715px) {
+	
+    .bio, .experience, .projects {
+        font-size: 18px;
     }
     .navlinks {
         font-size: 18px;
@@ -133,7 +127,6 @@ body {
         width: 75%;
         background: #4B8F8C;
         padding: 20px 20px;
-        border-radius: 20px;
         box-sizing: border-box;
         box-shadow: 2px 2px #2C365E; 
     }
@@ -147,9 +140,7 @@ body {
     }
 }
 @media (min-width: 1000px) {
-    body{
-        background: whitesmoke;
-        }
+    
     #flexbox-page {
         display: flex;
         justify-content: center;
@@ -157,7 +148,6 @@ body {
         width: 33%;
         background: #4B8F8C;
         padding: 20px 20px;
-        border-radius: 20px;
         box-sizing: border-box;
         box-shadow: 2px 2px #2C365E; 
         }
@@ -165,7 +155,6 @@ body {
         width: 30%;
         background: #4B8F8C;
         padding: 10px;
-        border-radius: 10px;
         box-sizing: border-box;
         box-shadow: 2px 2px #2C365E;
         }
