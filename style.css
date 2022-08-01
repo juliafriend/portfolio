@@ -121,10 +121,10 @@ body {
 @media (max-width: 715px) {
 	
     .bio, .experience, .projects {
-        font-size: 18px;
+        font-size: 16px;
     }
     .navlinks {
-        font-size: 18px;
+        font-size: 14px;
         color: whitesmoke;
     }
     #flexbox-page {
@@ -165,6 +165,9 @@ body {
         box-sizing: border-box;
         box-shadow: 2px 2px #2C365E;
         }
+    #Lena {
+        font-size: 16px;
+    }
 }
 
 
