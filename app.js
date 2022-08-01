@@ -62,17 +62,7 @@ let tasks = [
         profit: 0,
     }, ]
 
-// VARIABLES
-    // const $store = $('<section>').attr('id', 'store').addClass('store')
-    // const $h1 = $('<h3>').text('Pet Store').appendTo($store)
-    // $('#Lena').append($store)
-
-    // for (let i = 0; i < tasks.length; i++) {
-    //     const $taskdiv = $('<div>').attr('id',tasks[i].task).text(tasks[i].task).addClass('tasks').appendTo($store)
-    //     $treatprice = $('<li>').attr('id',tasks[i].price).text(`Price: $${tasks[i].price}`).addClass('price').appendTo($taskdiv) 
-    //     $taskprofit = $('<li>').attr('id',tasks[i].profit).text(`Earns you $${tasks[i].profit}`).addClass('profit').appendTo($taskdiv)
-    // }
-    
+  
     const $balance = $('<div>').attr('id', 'balance')
     const $h3B = $('<h3>').text(`CURRENT BALANCE:`).appendTo($balance)
     $('#Lena').append($balance)
@@ -80,8 +70,7 @@ let tasks = [
     let $cash =$('<h3>').attr('id','cash').appendTo($h3B).fadeOut(3000)
     
     let profitRate = 5
-    /////
-
+//////
     const $treat = $('<div>').attr('id', 'treat')
     const $h3T = $('<h3>').text(`COOKIES FOR LENA:`).appendTo($treat)
     $('#Lena').append($treat)
