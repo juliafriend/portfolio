@@ -17,7 +17,6 @@ body {
     background-color: whitesmoke;
 }
 #biography, #experience, #projects {
-    font-style: italic;
     font-family: 'Roboto Mono', monospace;
     font-size: 22px;
     color: black;
