@@ -4,7 +4,6 @@ h1 {
     color: #2C365E;
     font-size: 56px;
     font-family: 'Roboto Mono', monospace;
-
 }
 h2 {
     color:#484D6D;
@@ -91,6 +90,11 @@ body {
 	box-shadow: 2px 2px #2C365E; 
     font-size: 18px;
     font-family: 'Roboto Mono', monospace;
+}
+#walk, #puppysit, #cookies, #sundaes {
+    font-family: 'Roboto Mono', monospace;
+    border: 2px solid #484D6D;
+    padding: 2px;
 }
 #Lena2 {
     margin-left: 40%;
