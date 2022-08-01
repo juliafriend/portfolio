@@ -92,6 +92,10 @@ body {
     font-size: 18px;
     font-family: 'Roboto Mono', monospace;
 }
+#Lena2 {
+    margin-left: 40%;
+ 
+}
 .container {
 	width: 100%;
 	display: flex;
@@ -123,9 +127,6 @@ body {
     .bio, .experience, .projects {
         font-size: 16px;
     }
-    #biography, #experience, #projects {
-        font-size: 36;
-    }
     .navlinks {
         font-size: 14px;
         color: whitesmoke;
@@ -147,9 +148,6 @@ body {
         border-radius: 10px;
         box-sizing: border-box;
         box-shadow: 2px 2px #2C365E;
-    }
-    #Lena {
-        font-size: 20px;
     }
 }
 @media (min-width: 1000px) {
