@@ -123,6 +123,9 @@ body {
     .bio, .experience, .projects {
         font-size: 16px;
     }
+    #biography, #experience, #projects {
+        font-size: 36;
+    }
     .navlinks {
         font-size: 14px;
         color: whitesmoke;
@@ -145,6 +148,9 @@ body {
         box-sizing: border-box;
         box-shadow: 2px 2px #2C365E;
     }
+    #Lena {
+        font-size: 20px;
+    }
 }
 @media (min-width: 1000px) {
     
@@ -165,9 +171,7 @@ body {
         box-sizing: border-box;
         box-shadow: 2px 2px #2C365E;
         }
-    #Lena {
-        font-size: 16px;
-    }
+   
 }
 
 
