@@ -35,4 +35,99 @@ $('.previous').on('click', () => {
     $('.carousel-imgs').children().eq(currentImgIndex).css('display', 'block')
 })
 
+/////Dog Game////
+
+const player = {
+        bankAccount: 0,
+        amountCookies: 0,
+        amountSundaes: 0
+    }
+let tasks = [
+    {
+        task: 'walk a dog',
+        price: 0,
+        profit: 5,
+    }, {
+        task: 'puppy-sit',
+        price: 0,
+        profit: 10,
+
+    }, {
+        task: 'buy cookies',
+        price: 5,
+        profit: 0,
+    }, {
+        task: 'buy vanilla sundae',
+        price: 10,
+        profit: 0,
+    }, ]
+
+// VARIABLES
+    // const $store = $('<section>').attr('id', 'store').addClass('store')
+    // const $h1 = $('<h3>').text('Pet Store').appendTo($store)
+    // $('#Lena').append($store)
+
+    // for (let i = 0; i < tasks.length; i++) {
+    //     const $taskdiv = $('<div>').attr('id',tasks[i].task).text(tasks[i].task).addClass('tasks').appendTo($store)
+    //     $treatprice = $('<li>').attr('id',tasks[i].price).text(`Price: $${tasks[i].price}`).addClass('price').appendTo($taskdiv) 
+    //     $taskprofit = $('<li>').attr('id',tasks[i].profit).text(`Earns you $${tasks[i].profit}`).addClass('profit').appendTo($taskdiv)
+    // }
+    
+    const $balance = $('<div>').attr('id', 'balance')
+    const $h3B = $('<h3>').text(`CURRENT BALANCE:`).appendTo($balance)
+    $('#Lena').append($balance)
+
+    let $cash =$('<h3>').attr('id','cash').appendTo($h3B).fadeOut(3000)
+    
+    let profitRate = 5
+    /////
+
+    const $treat = $('<div>').attr('id', 'treat')
+    const $h3T = $('<h3>').text(`COOKIES FOR LENA:`).appendTo($treat)
+    $('#Lena').append($treat)
+
+    let $treats =$('<h3>').attr('id','amount').appendTo($h3T).fadeOut(3000)
+
+    let amountRate = 1
+//////
+    const $sundae = $('<div>').attr('id', 'sundae')
+    const $h3S = $('<h3>').text(`SUNDAES FOR LENA:`).appendTo($sundae)
+    $('#Lena').append($sundae)
+
+    let $sundaes =$('<h3>').attr('id','amount1').appendTo($h3S).fadeOut(3000)
+
+    let amountRate1 = 1
+// FUNCTIONS
+const walkDog = () => {
+player.bankAccount += 5
+$('#cash').text(`$${player.bankAccount}`).fadeIn()
+profitRate = 5
+}
+
+const puppysit = () => {
+    player.bankAccount += 10
+    $('#cash').text(`$${player.bankAccount}`).fadeIn()
+    profitRate = 10
+}
+
+const buyCookies = () => {
+    player.bankAccount -= 5
+    player.amountCookies += 1
+    $('#cash').text(`$${player.bankAccount}`).fadeIn()
+    $('#amount').text(`You purchased ${player.amountCookies}`).fadeIn()
+    amountRate = 1        
+}
+const buySundae = () => {
+    player.bankAccount -= 10
+    player.amountSundaes += 1
+    $('#cash').text(`$${player.bankAccount}`).fadeIn()
+    $('#amount1').text(`You purchased ${player.amountSundaes} `).fadeIn()
+    amountRate = 1  
+}
+
+    $('#walk').on('click', walkDog)
+    $('#puppysit').on('click', puppysit)
+    $('#cookies').on('click', buyCookies)
+    $('#sundae').on('click', buySundae)
+
   });
