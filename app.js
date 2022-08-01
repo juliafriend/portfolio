@@ -15,11 +15,15 @@ $button.on('click', buttonMessage);
 
 //////////Carousel//////////
 let currentImgIndex = 0
+//keeps track of what img is currently showing
 let numOfImages = $('.carousel-imgs').children().length - 1
+//tells you how many images you will be cycling through (shows what the highest index will be)
 $('.next').on('click', () => {
     $('.carousel-imgs').children().eq(currentImgIndex).css('display', 'none')
+    //this will select the img that's currently showing, and then hide it
     if(currentImgIndex < numOfImages) {
         currentImgIndex ++
+        //this cycles through the pictures 1 by 1 and once you get to last one (the highest index), goes back to 0
        } else {
         currentImgIndex = 0
        }
@@ -29,14 +33,16 @@ $('.previous').on('click', () => {
     $('.carousel-imgs').children().eq(currentImgIndex).css('display', 'none')
     if(currentImgIndex > 0) {
         currentImgIndex--
+        //decrementing the index
     } else {
         currentImgIndex = numOfImages
+        //once you hit 0, it goes back to the pic with the highest index
     }
     $('.carousel-imgs').children().eq(currentImgIndex).css('display', 'block')
 })
 
 /////Dog Game////
-
+/////////////////
 const player = {
         bankAccount: 0,
         amountCookies: 0,
@@ -117,6 +123,6 @@ const buySundae = () => {
     $('#walk').on('click', walkDog)
     $('#puppysit').on('click', puppysit)
     $('#cookies').on('click', buyCookies)
-    $('#sundae').on('click', buySundae)
+    $('#sundaes').on('click', buySundae)
 
   });
