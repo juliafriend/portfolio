@@ -7,15 +7,18 @@ h1 {
 h2 {
     color:#484D6D;
     font-size: 48px;
-    text-align: left;
-    text-decoration: underline;
 }
 body {
     background-color: whitesmoke;
 }
-#biography, #experience, #projects {
-    font-size: 22px;
+#biography2, #experience2, #projects {
+    font-size: 18px;
     color: black;
+    padding: 1em;
+}
+#pagetitle {
+    text-align:center;
+    padding: 1em;
 }
 .navbar {
     padding: 16px 24px;
@@ -30,6 +33,10 @@ body {
     font-size: 24px;
     color: whitesmoke;
 }
+#navlinks1 {
+    font-size: 26px;
+    color: whitesmoke;
+}
 #navlinks {
     font-size: 22px;
     color: whitesmoke;
@@ -39,10 +46,6 @@ body {
 } 
 #flexbox2 { 
     background-color: #4B8F8C;
-}
-#flexbox3 { 
-    display: flex;
-    justify-content: center;
 }
 
 #flexbox-page {
