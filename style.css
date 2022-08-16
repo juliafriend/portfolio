@@ -52,6 +52,10 @@ button {
     text-align: center;
     justify-content: center;
 }
+#resume {
+    color:#484D6D;
+    text-align: center;   
+}
 #flexbox-page {
 	display: flex;
 	justify-content: center;
