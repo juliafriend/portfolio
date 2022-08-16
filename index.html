@@ -4,15 +4,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Julia Friend</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="app.js"></script>
+  <div class="container-fluid" id="name">
   <h1>
     JULIA FRIEND
   </h1>
-  
+  </div>
 </head>
 <body>  
+    <div class="container-md" id="flexbox1">
+        <nav class="nav nav-tabs nav-fill">
+        <a class="nav-link" href="bio.html" id="bio">Biography</a>
+        <a class="nav-link" href="experience.html" id="experience">Experience</a>   
+        <a class="nav-link" href="projects.html" id = "projects">Projects</a>
+        </nav>
+    </div>
+    <div class="container-md" id="me">
+    <h4>
+        Software Developer |  Astute Problem Solver <br> </h4>
+    <h5>   Andover, Massachusetts
+    </h5>
+    </div>
     <div class="container">
         <div class="carousel-button previous"> Prev</div>
         <div class="carousel-imgs">
@@ -25,31 +40,15 @@
     </div>
         <br>
         <br>
-    <div id="flexbox1">
-        <nav class="pages">
-        <a href="bio.html" class="bio">Biography</a>
-        <a href="experience.html" class="experience">Experience</a>   
-        <a href="projects.html" class = "projects">Projects</a>
-        </nav>
-    </div>
-    <p>
-        <br>
  
-    </p>
-    <div id="flexbox2">
-        <nav class="navbar">
-        <a href="https://github.com/juliafriend" class="navlinks" id="github">GitHub</a>
-        <a href="https://www.linkedin.com/in/julia-friend-53505989/" class="navlinks" id="linkedin">LinkedIn</a>
-        <a href="https://mail.google.com" class="navlinks" id="gmail">Gmail</a>
+    <div class= "container-sm" id="flexbox2">
+        <nav class ="nav nav-tabs nav-fill" id="navbar">
+        <a class="nav-link" href="https://github.com/juliafriend" id="navlinks" >GitHub</a>
+        <a class="nav-link" href="https://www.linkedin.com/in/julia-friend-53505989/" id="navlinks">LinkedIn</a>
+        <a class="nav-link" href="https://mail.google.com" id="navlinks" >Gmail</a>
         </nav> 
     </div>
-    <br><br>
-    <div id="flexbox3">
-    <button id="button">Click here if you enjoyed this page!</button>
-    </div>
     <br>
-    <div id="feedback">
-        
-    </div>
+
 </body>
 </html>

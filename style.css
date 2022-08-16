@@ -3,66 +3,48 @@ h1 {
     font-weight: bolder;
     color: #2C365E;
     font-size: 56px;
-    font-family: 'Roboto Mono', monospace;
 }
 h2 {
     color:#484D6D;
     font-size: 48px;
     text-align: left;
     text-decoration: underline;
-    font-family: 'Roboto Mono', monospace;
 }
 body {
     background-color: whitesmoke;
 }
 #biography, #experience, #projects {
-    font-family: 'Roboto Mono', monospace;
     font-size: 22px;
     color: black;
 }
 .navbar {
     padding: 16px 24px;
     word-spacing: 24px;
-    font-family: 'Roboto Mono', monospace;
 }
 .pages {
     padding: 16px 24px;
     word-spacing: 24px;
     
 }
-.bio, .experience, .projects {
-    font-size: 36px;
-    font-family: 'Roboto Mono', monospace;
+#bio, #experience, #projects {
+    font-size: 24px;
     color: whitesmoke;
 }
-.navlinks {
+#navlinks {
     font-size: 22px;
     color: whitesmoke;
 }
 #flexbox1 {
-    display: flex;
-    justify-content: center;
     background-color: #484D6D;
-    width: 100%;
-    align-items: center;
-    
 } 
 #flexbox2 { 
-    display: flex;
-    justify-content: center;
     background-color: #4B8F8C;
-    width: 100%;
 }
 #flexbox3 { 
     display: flex;
     justify-content: center;
 }
-#button {
-    border-radius: 12px;
-    border: 2px solid rgb(220, 165, 175);
-    padding: 14px 40px;
-    background: lightgray;
-}
+
 #flexbox-page {
 	display: flex;
 	justify-content: center;
@@ -143,6 +125,10 @@ body {
         box-sizing: border-box;
         box-shadow: 2px 2px #2C365E;
     }
+}
+#me, #name {
+    text-align: center;
+    padding: 1em;
 }
 @media (min-width: 1000px) {
     
