@@ -74,6 +74,7 @@ button {
 #borrow {
     background-color: #4B8F8C;
     font-size: larger;
+    margin-right: 20px;
 }
 #flexbox-game {
     background:rgb(220, 165, 175);
