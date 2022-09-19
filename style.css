@@ -47,6 +47,11 @@ body {
 #flexbox2 { 
     background-color: #4B8F8C;
 }
+.brand {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
 button {
     padding: 1em;
     text-align: center;
