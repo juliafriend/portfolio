@@ -43,9 +43,11 @@ body {
 }
 #flexbox1 {
     background-color: #484D6D;
+    width: 100%;
+   
 } 
 #flexbox2 { 
-    background-color: #4B8F8C;
+    background-color: #29615e;
 }
 .brand {
     text-align: center;
@@ -66,18 +68,23 @@ button {
 	justify-content: center;
     align-items: center;
     width: 50%;
-	background: #4B8F8C;
+	background: #29615e;
 	padding: 20px 20px;
 	box-sizing: border-box;
 	box-shadow: 2px 2px #2C365E; 
 }
 #borrow {
-    background-color: #4B8F8C;
+    background-color: #29615e;
     font-size: larger;
     margin-right: 20px;
 }
+.projectPic {
+    width: 450px;
+    padding: 1em;
+    margin: 10px auto 10px auto;
+}
 #flexbox-game {
-    background:rgb(220, 165, 175);
+    background:rgb(208, 197, 199);
 	box-shadow: 2px 2px #2C365E; 
     font-size: 18px;
     font-family: 'Roboto Mono', monospace;
@@ -92,7 +99,6 @@ button {
 }
 #Lena2 {
     margin-left: 40%;
- 
 }
 .container {
 	width: 100%;
@@ -101,7 +107,7 @@ button {
 }
 .carousel-imgs {
 	width: 50%;
-	background: #4B8F8C;
+	background:#29615e;
 	padding: 10px;
 	box-sizing: border-box;
 	box-shadow: 2px 2px #2C365E;
