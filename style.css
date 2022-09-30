@@ -27,7 +27,6 @@ body {
 .pages {
     padding: 16px 24px;
     word-spacing: 24px;
-    
 }
 #bio, #experience, #projects {
     font-size: 24px;
@@ -62,6 +61,12 @@ button {
 #resume {
     color:#484D6D;
     text-align: center;   
+}
+.containerMain {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 #flexbox-page {
 	display: flex;
