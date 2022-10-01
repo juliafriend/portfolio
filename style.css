@@ -135,16 +135,8 @@ button {
 	color: whitesmoke;
 	padding: 10px;
     font-style: italic;
-    margin-left:200px;
 }
-.carousel-button2 {
-	align-self: center;
-	background: #2C365E;
-	color: whitesmoke;
-	padding: 10px;
-    font-style: italic;
-    margin-right:200px;
-}
+
 .carousel-imgs img:first-of-type {
     display: block;
 }
