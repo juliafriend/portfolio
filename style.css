@@ -119,12 +119,12 @@ button {
 	justify-content: space-evenly;
 }
 .carousel-imgs {
-	width: 50%;
 	background:#29615e;
 	padding: 10px;
 	box-sizing: border-box;
 	box-shadow: 2px 2px #2C365E;
 }
+
 .carousel-imgs img {
 	width: 100%;
 	display: none;
@@ -135,6 +135,15 @@ button {
 	color: whitesmoke;
 	padding: 10px;
     font-style: italic;
+    margin-left:200px;
+}
+.carousel-button2 {
+	align-self: center;
+	background: #2C365E;
+	color: whitesmoke;
+	padding: 10px;
+    font-style: italic;
+    margin-right:200px;
 }
 .carousel-imgs img:first-of-type {
     display: block;
