@@ -16,6 +16,10 @@ body {
     color: black;
     padding: 1em;
 }
+#me {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
 #pagetitle {
     text-align:center;
     padding: 1em;
@@ -23,6 +27,10 @@ body {
 .navbar {
     padding: 16px 24px;
     word-spacing: 24px;
+}
+.brand {
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 .pages {
     padding: 16px 24px;
