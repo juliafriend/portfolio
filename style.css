@@ -8,17 +8,15 @@ h2 {
     color:#484D6D;
     font-size: 48px;
 }
-body {
-    background-color: whitesmoke;
-}
+
 #biography2, #experience2, #projects {
     font-size: 18px;
     color: black;
     padding: 1em;
 }
 #me {
-    margin-top: 50px;
-    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 #pagetitle {
     text-align:center;
