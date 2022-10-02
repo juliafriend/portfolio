@@ -72,10 +72,11 @@ button {
 #resume {
     color:#484D6D;
     text-align: center;   
+    margin-bottom: 50px;
 }
 .respic{
     border: 1px solid black;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 .containerMain {
     display: flex;
