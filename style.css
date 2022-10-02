@@ -64,9 +64,18 @@ button {
     text-align: center;
     justify-content: center;
 }
+.reslink {
+    color:#676b8b;
+    text-align: center;   
+    font-size: 24px;
+}
 #resume {
     color:#484D6D;
     text-align: center;   
+}
+.respic{
+    border: 1px solid black;
+    margin-bottom: 50px;
 }
 .containerMain {
     display: flex;
